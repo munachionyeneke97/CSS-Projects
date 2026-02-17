@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(30,54%,90%);
+  font-family: 'Outfit', 'Young Serif';
+}
+
+body p {
+  font-size: 16px;
+}
+
+.grid-container {
+  width: 800px;
+  background: white;
+  padding: 3rem;
+  margin: auto;
+  border-radius: 15px;
+}
+
+#container {
+  margin: 3rem 0;
+}
+
+img {
+  width: 700px;
+  border-radius: 10px;
+}
+
+.prepare-container {
+  background: hsl(330,100%,98%);
+  width: 700px;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.time {
+  color: hsl(332, 51%, 32%);
+  padding-left: .7rem;
+}
+
+.dients {
+  color: hsl(14, 45%, 36%);
+  padding-left: .9rem;
+  font-size: 30px;
+}
+
+.utility {
+  border-bottom: 3px dotted hsl(30, 18%, 87%);
+}
+
+table {
+  display: flex;
+  justify-content: flex-start;
+}
+
+table td {
+  padding-left: 17rem;
+}
+
+th,
+td {
+  padding: 1rem;
+  border-bottom: 3px dotted hsl(30, 18%, 87%);
+}
+
+.gram {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}

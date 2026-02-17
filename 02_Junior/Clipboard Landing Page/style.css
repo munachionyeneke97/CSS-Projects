@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree';
+  background-image: url(bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: .3rem;
+}
+
+@media (min-width: 800px) {
+  #container {
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logs {
+    align-self: center;
+  }
+  
+  .light {
+    font-weight:500;
+  }
+  
+  .first {
+    font-size: 40px;
+  }
+  
+  .p {
+    text-align: center;
+  }
+  
+  .IOS {
+    text-decoration: none;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    padding: .7rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px hsl(170, 65%, 83%);
+  }
+  
+  .MAC {
+    text-decoration: none;
+    color:#fff;
+    background-color: hsl(233, 100%, 69%);
+    padding: .7rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    margin-left: .5rem;
+  } 
+  
+  .third {
+    display: flex;
+    margin-top: 3rem;
+  }
+  
+  .pc-text {
+    margin-left: 5rem;
+  }
+  
+  .arrange {
+    padding: 0 1rem;
+  }
+  
+  .grid {
+    display: flex;
+    text-align: center;
+  }
+  
+  .py-1 {padding: 0 3rem;}
+  
+  footer {
+    background-color: hsl(206, 26%, 95%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot-logo {
+    width: 5%;
+    height: 1%;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .social {
+    padding: 0 1rem;
+  }
+  
+  .i{
+    padding: 0 1rem;
+  }
+  
+  .links a:hover {
+    color: hsl(171, 79%, 44%);
+  }
+}
+
+
+@media (max-width: 700px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    margin: auto;
+  }
+
+  .light {
+    font-weight:500;
+  }
+  
+  .first {
+    font-size: 37px;
+    text-align: center;
+  }
+
+  .p {
+    text-align: center;
+    font-size: 19.5px;
+  }
+
+  .align {
+    text-align: center;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .IOS {
+    text-decoration: none;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    padding: .5rem 3rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px hsl(170, 65%, 83%);
+  }
+  
+  .MAC {
+    text-decoration: none;
+    color:#fff;
+    background-color: hsl(233, 100%, 69%);
+    padding: .5rem 3rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    margin-top: 1rem;
+  }
+
+  .small {
+    font-size: 18.3px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .verify {
+    width: 90%;
+    padding-left: 1rem;
+  }
+
+  .pc-text {
+    text-align: center;
+  }
+
+  .words {
+    font-size: 18px;
+  } 
+
+  .devices {
+    width: 100%;
+  }
+
+  .letters {
+    font-size: 17.4px;
+  }
+
+  .arrange {
+    margin: 3rem 0;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .py-1 { padding: 3rem 0;}
+
+  .big {
+    font-size: 25px;
+  }
+
+  footer {
+    background-color: hsl(206, 26%, 95%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot-logo {
+    width: 10%;
+    padding-top: 2rem;
+  }
+
+  .links, 
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .links a:hover {
+    color: hsl(171, 79%, 44%);
+  }
+
+  .i {
+    padding: 1rem 0;
+  }
+}

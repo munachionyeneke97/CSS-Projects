@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background:  hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* Laptops/Desktop */
+@media (min-width: 1024px) and (max-width: 2500px) {
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color:  hsl(0, 0%, 12%);
+  max-width: 500px;
+  margin-top: 5rem;
+  margin-left: 42rem;
+  padding: 2rem;
+  border-radius: 7px;
+}
+}
+
+/* Mobile Phones */
+@media (min-width: 375px) and (max-width: 768px) {
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color:  hsl(0, 0%, 12%);
+  max-width: 400px;
+  margin: 5rem 1rem;
+  padding: 2rem;
+  border-radius: 7px;
+}
+}
+
+/* Tablets/Landscape Mode */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    max-width: fit-content;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 7px;
+  }
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  margin: 0.5rem;
+  background-color: hsl(0, 0%, 20%);
+  padding: 1rem 4.5rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+a:hover {
+  background: hsl(75, 94%, 57%);
+  transition: background 2s ease-in-out;
+}
+
+span {
+  color: hsl(75, 94%, 57%);
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1  {
+  font-weight: 500;
+}
